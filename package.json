@@ -1,6 +1,6 @@
 {
   "name": "@rbxts/plasma",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "roblox-ts typings for the declarative ui library, plasma",
   "main": "src/init.lua",
   "scripts": {
@@ -12,9 +12,13 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dantheprogram/plasma/issues"
+  "publishConfig": {
+    "access": "public"
   },
+  "types": "src/index.d.ts",
+  "files": [
+    "src/"
+  ],
   "homepage": "https://github.com/dantheprogram/plasma#readme",
   "devDependencies": {
     "@rbxts/compiler-types": "^1.2.9-types.0",
