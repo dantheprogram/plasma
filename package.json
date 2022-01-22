@@ -1,5 +1,5 @@
 {
-  "name": "plasma",
+  "name": "@rbxts/plasma",
   "version": "1.0.0",
   "description": "roblox-ts typings for the declarative ui library, plasma",
   "main": "src/init.lua",
